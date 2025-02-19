@@ -5,7 +5,6 @@ let employee = [
 exports.getEmployees = async (req, res, next) => {
   try{
     res.status(200).json({ data: employee });
-    console.log(employee);
   }catch(e){
     res.status(500).json({message : "internal server error"});
   }

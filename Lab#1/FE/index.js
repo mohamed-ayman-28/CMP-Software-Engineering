@@ -56,7 +56,6 @@ function fetchEmployees() {
 
 // TODO
 function createEmployee (){
-  console.log('inside');
   const id = document.getElementById('id');
   const name = document.getElementById('name');  
   fetch('http://localhost:3000/api/v1/employee/', {
